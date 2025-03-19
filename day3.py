@@ -78,13 +78,7 @@ else:
 #prime or not
 num = int(input("Enter a number: "))
 count=0
-for i in range(2, num): 
-  if num % i == 0:
-    count+=1
-if count>1:
-  print("It is not a prime number.")
-else:
-  print("It is a prime number.")
+
 
 #what month is today
 print("The list of months are: \n 1.January \n 2.February \n 3.March \n 4.April \n 5.May \n 6.June \n 7.July \n 8.August \n 9.September \n 10.October \n 11.November \n 12.December")
